@@ -1,0 +1,7 @@
+This is an Error Responses File.
+Here you can see all Error reasons.
+
+0 Unknown Error (-)
+102 Too Few FPS (fps)
+103 Too Much FPS (fps)
+104 Game Can not be found in processes (game)
