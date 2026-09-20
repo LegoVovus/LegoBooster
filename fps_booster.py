@@ -1,12 +1,16 @@
 import time
 import random
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_PATH = os.path.join(SCRIPT_DIR, 'logs.txt')
 
 num = [-9, -8, -7, -6, -5, -4, -3, -2, -1, 0 ,1, 2, 3, 4, 5, 6, 7, 8, 9]
 run = [10, 15, 20, 25, 30]
 rrun = random.choice(run)
 
 def write_to_file(log):
-     with open('logs.txt', 'a', encoding='utf-8') as file:
+     with open(LOG_PATH, 'a', encoding='utf-8') as file:
            file.write(f"\n[{time.strftime('%H:%M')}]: {log}!")
 
 print("Ultimate FPS Booster by legovovus")
