@@ -90,7 +90,7 @@ while True:
     elif a == '3':
         print("\n=== Current Logs ===")
         try:
-            with open('logs.txt', 'r', encoding='utf-8') as file:
+            with open(LOG_PATH, 'r', encoding='utf-8') as file:
                 print(file.read())
         except FileNotFoundError:
             print("No logs found yet.")
