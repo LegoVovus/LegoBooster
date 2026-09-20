@@ -7,7 +7,7 @@ rrun = random.choice(run)
 
 def write_to_file(log):
      with open('logs.txt', 'a', encoding='utf-8') as file:
-           file.write(f"\n[{time.strftime("%H:%M")}]: {log}!")
+           file.write(f"\n[{time.strftime('%H:%M')}]: {log}!")
 
 print("Ultimate FPS Booster by legovovus")
 
