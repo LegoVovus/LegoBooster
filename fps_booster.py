@@ -68,12 +68,6 @@ while True:
         for counter in range(1, rrun + 1):
             print(f"{counter}m: {game}.exe BOOSTED | {fps - random.choice(num)} FPS")
             time.sleep(60)
-            # RANDOM ERROR)
-            if random.random() <= 0.001:
-                print("UNKNOWN ERROR 0!")
-                log = "UNKNOWN ERROR 0"
-                write_to_file(log)
-                break
         print("Booster have done his job!")
         time.sleep(2)
             
