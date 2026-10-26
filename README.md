@@ -15,3 +15,4 @@
 <img width="512" height="256" alt="изображение" src="https://github.com/user-attachments/assets/a62b733c-62e5-4ac4-b0a2-c46aaab6fac6"/>
 
 ### And all of that in one app! Try now
+<sub>This is a joke app. Actually it doesn't boost anything</sub>
